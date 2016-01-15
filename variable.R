@@ -52,4 +52,20 @@
       date2 #螢幕顯示 "2016-01-15 11:05:00 CST"
       class(date2) #螢幕顯示："POSIXct" "POSIXt" 
       as.numeric(date2)
+    #邏輯處理
+      TRUE * 5 # 可簡寫成T，it will show 5
+      FALSE * 5 # 可簡寫成F，it will show 0
       
+      k <- TRUE
+      class(k)
+      
+      is.logical(k)
+      #邏輯處理可用於比較
+        2==3
+        2!=3
+        2<3
+        2<=3
+        
+        "data" == "stats"
+        "data" < "stats"
+        
